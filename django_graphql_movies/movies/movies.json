@@ -1,0 +1,25 @@
+[
+  {
+    "model": "movies.actor",
+    "pk": 1,
+    "fields": {
+      "name": "Shah Rukh"
+    }
+  },
+  {
+    "model": "movies.actor",
+    "pk": 2,
+    "fields": {
+      "name": "Salman"
+    }
+  },
+  {
+    "model": "movies.movie",
+    "pk": 1,
+    "fields": {
+      "title": "Hello",
+      "actors": [1, 2],
+      "year": "2015"
+    }
+  }
+]
